@@ -28,8 +28,6 @@ export class ShortenerComponent {
     }
 
   copy() {
-
-    // Copy the text inside the text field
     navigator.clipboard.writeText(this.shortUrl);
     this.copyOk = true;
   }

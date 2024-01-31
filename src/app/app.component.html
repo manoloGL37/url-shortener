@@ -1,9 +1,9 @@
 <header class="bg-[#0A369D] h-[10vh] flex items-center">
-  <h1 class="text-white text-5xl font-extrabold p-4">✂ Url Shortener</h1>
+  <h1 class="text-white text-5xl font-extrabold p-4"> Url Shortener</h1>
 </header>
 <div class="flex flex-col w-full items-center">
-  <div class="flex justify-between container h-[90vh]">
-    <div class="flex flex-col justify-center gap-5">
+  <div class="flex flex-col-reverse gap-14 justify-center lg:gap-0 lg:flex-row lg:justify-between lg:container h-[90vh]">
+    <div class="flex flex-col justify-center px-4 lg:px-0 gap-5">
       <h2 class="text-[#4472CA] text-4xl font-bold">
         Acorta tus links rápido y sencillo
       </h2>
@@ -18,11 +18,11 @@
         Acortar
       </a>
     </div>
-    <div class="flex items-center justify-end">
-      <img class="size-3/5" src="../assets/img/web1.svg" alt="" />
+    <div class="flex items-center lg:justify-end">
+      <img class="lg:size-3/5" src="../assets/img/web1.svg" alt="" />
     </div>
   </div>
-  <div id="shortener" class="w-2/3 mb-5">
+  <div id="shortener" class="lg:w-2/3 lg:mb-5 w-full">
     <app-shortener></app-shortener>
   </div>
 </div>
